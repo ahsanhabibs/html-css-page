@@ -39,4 +39,13 @@
 .article h2{
     text-align: center;
     margin-bottom: 2px;
+    font-size: 45px;
+}
+.article p{
+    font-size:20px ;
+}
+.article p .imp{
+    font-size: 2em;
+    line-height: 1.5em;
+    background-color: blueviolet;
 }
