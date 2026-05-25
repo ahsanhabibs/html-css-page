@@ -25,7 +25,7 @@
     padding-top: 60px;
 
 }
-.article{
+.article ,#type{
     width:80%;
    /* margin-top: 60px;
     margin-left:auto ;
@@ -38,14 +38,20 @@
 }
 .article h2{
     text-align: center;
-    margin-bottom: 2px;
-    font-size: 45px;
+    font-size: 48px;
+    border-style: solid;
+    border-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-color: yellowgreen;
+    
 }
 .article p{
-    font-size:20px ;
+    font-size:24px ;
 }
 .article p .imp{
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
     background-color: blueviolet;
 }
