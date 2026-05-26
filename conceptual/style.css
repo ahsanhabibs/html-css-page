@@ -32,13 +32,9 @@
     margin-right: auto;
     margin-bottom: 30px;*/
     margin: 60px auto;
-    border-width: 15px;
-    border-color: yellow;
-    border-style: solid;
-    background-color: rgb(126,227,227);
     padding: 60px;
     }
-    .article h2{
+    .article h2 ,#cow-id h2{
     text-align: center;
     font-size: 48px;
     border-style: solid;
@@ -58,4 +54,20 @@
     font-size: 1.5em;
     line-height: 1.5em;
     background-color: blueviolet;
+}
+/* start flex id */
+
+.cow-container{
+    display: flex;
+    gap: 20px;
+}
+
+    .cow-img{
+    flex: 1;
+}
+
+    .cow-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
