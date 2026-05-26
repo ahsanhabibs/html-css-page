@@ -12,7 +12,7 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
-
+  clip-path: polygon(50% 0%, 100% 0, 50% 100%, 0 0);
 }
 .hero h1{
     color: azure;
@@ -33,6 +33,7 @@
     margin-bottom: 30px;*/
     margin: 60px auto;
     padding: 60px;
+    background: linear-gradient(45deg,red,blueviolet);
     }
     .article h2 ,#cow-id h2{
     text-align: center;
@@ -59,11 +60,16 @@
 
 .cow-container{
     display: flex;
+    flex-direction: row;
     gap: 20px;
+    justify-content: space-around;
+    
 }
 
     .cow-img{
     flex: 1;
+   
+    
 }
 
     .cow-img img{
